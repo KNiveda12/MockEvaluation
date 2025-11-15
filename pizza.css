@@ -1,19 +1,22 @@
 .container {
     display: flex;
-    display: inline-flex;
+    align-items: center;
     color: blue;
     
 }
-button {
+.btn {
     background-color: red;
     color: white;
     padding: 10px;
     text-align: center;
-    align-self: flex-end;
+    top: 10px;
+    right: 10px;
+    position: absolute;
 }
 .box1 {
-   display: inline-flex; 
-   gap: 15px;
+   display: flex; 
+   align-items: center;
+   gap: 20px;
 }
 .container1 {
     display: grid;
