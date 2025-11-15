@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    display: inline-flex;
+    color: blue;
+    
+}
+button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    align-self: flex-end;
+}
+.box1 {
+   display: inline-flex; 
+   gap: 15px;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;  
+    gap: 20px;
+}
+.item {
+    background-color: red;
+    gap: 15px;
+    color: white;
+    justify-content: center;
+}
+.item .button {
+    background-color: white;
+    text-align: center;
+    color: red;
+    padding: 10px;
+}
